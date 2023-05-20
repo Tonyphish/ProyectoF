@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Sección index */
+.index {
+  padding: 40px;
+  height: 100vh;
+  background-image: url(/AAProyectoFinal/imgs/colina.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.index h1 {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.index p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #000000;
+  background-color: rgba(64, 152, 187, 0.452);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  padding: 25px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+/* Estilo Acerca de nosotros */
+#about {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+#about h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+tbody {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#about img {
+  padding: 20px;
+}
+
+
+
+/* Estilos Servicios */
+#servicio {
+  padding: 50px;
+  background-color: #fff;
+}
+
+#servicio h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#servicio h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.servicio-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.servicio-descripcion {
+  font-size: 24px;
+}
+
+/* Estilos Contacto */
+#contact {
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+#contact h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.h1-3 {
+  color: #333;
+}
+
+.mt-4 {
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #7fa4cc88;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
